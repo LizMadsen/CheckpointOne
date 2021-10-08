@@ -17,6 +17,10 @@
     background-color: var(--AWakePrimary);
 }
 
+.d-flex {
+    display: flex;
+}
+
 .headerBGImage {
     background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(5, 33, 59, 0.904) 25%, rgba(0,212,255,0) 100%), url("https://asset.vg247.com/alan%20wake%20remastered%20wide.jfif/BROK/resize/1200x630%3E/format/jpg/quality/80/alan%20wake%20remastered%20wide.jfif");
     background-size: cover;
@@ -24,11 +28,8 @@
 }
 
 .content-spill {
-    position:relative;
-    bottom: -1em;
-    right: 3em;
-}
-
-.RemedyLogo {
-    height: 15em;
+    /* position:relative;
+    bottom: -2em;
+    right: 3em; */
+    transform: translateY(3em)
 }

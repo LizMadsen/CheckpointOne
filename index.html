@@ -11,55 +11,120 @@
     <title>Alan Wake</title>
 </head>
 
-<body>
-    <header class=" headerFooter container-fluid">
+<!-- <style>
+    body.debug .container,
+    body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+    }
+
+    body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+    }
+</style> -->
+
+<body class="debug">
+    <header class="headerFooter container-fluid">
         <div>
             <h1>Alan Wake!!!</h1>
         </div>
     </header>
-    <div class="row headerBGImage">
-        <div class="col-3">
-            <div class="card p-3 my-5" style="width: 18rem;">
-                <div class="card-header">
-                    Find Remedy Online!
+    <main class="container-fluid">
+        <div class="row headerBGImage justify-content-center">
+            <div class="col-3 d-flex">
+                <div class="card  p-3 my-5" style="width: 20rem;">
+                    <form action="action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname">First Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Last Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Email..">
+                            </div>
+                        </div>
+                        <div class="row">
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Write something.."
+                                    style="height:100px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Blog</li>
-                    <li class="list-group-item">Twitter</li>
-                    <li class="list-group-item">Facebook</li>
-                    <li class="list-group-item">Twitch</li>
-                    <li class="list-group-item">Instagram</li>
-                </ul>
+            </div>
+            <div class="col-3 lightFont">
+                <h2>Alan Wake is so cool</h2>
+                <p>Like, 100% just the best game I've ever played. And I've played Nier: Automata.</p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row bgPrimary lightFont justify-content-around">
+            <div class="col-7">
+                <h2>Information about Alan Wake!</h2>
+                <p>Information will go here! So neat!</p>
+            </div>
+            <div class="col-2">
+                <div class="content-spill">
+                    <div class="card p-3 my-5" style="width: 25rem;">
+                        <div class="card-header">
+                            Find Remedy Online!
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Blog</li>
+                            <li class="list-group-item">Twitter</li>
+                            <li class="list-group-item">Facebook</li>
+                            <li class="list-group-item">Twitch</li>
+                            <li class="list-group-item">Instagram</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-2 lightFont">
-            <h2>Alan Wake is so cool</h2>
-            <p>Like, 100% absolute just the best game I've ever played. And I've played Nier: Automata.</p>
+        <div class="row">
+            <div class="col-3">
+                <h2>Neat suff!</h2>
+            </div>
+            <div class="col-9"></div>
         </div>
-    </div>
-    <div class="row  bgPrimary lightFont">
-        <div class="col-9">
-            Information will go here! So neat!
+        <div class="row">
+            <div class="col"></div>
         </div>
-        <div class="col-3">
-            <img class="RemedyLogo content-spill"
-                src="https://lever-client-logos.s3-us-west-2.amazonaws.com/dd100026-61ba-45a5-bd81-bddfadd830a1-1587538470657.png"
-                alt="Alan Wake Headshot">
+        <div class="row">
+            <div class="col"></div>
         </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="col"></div>
-    </div>
-    <div class="row">
-        <div class="col"></div>
-    </div>
-    <div class="row">
-        <div class="col"></div>
-    </div>
-    <div class="row">
-        <div class="col"></div>
-    </div>
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </main>
     <footer class="container-fluid headerFooter">
         <P>Alan Wake (c) Remedy games, 2010-</P>
     </footer>
