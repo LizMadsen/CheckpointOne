@@ -9,6 +9,14 @@
     color: var(--AWakeTertiary)
 }
 
+.darkFont {
+    color: var(--AWakePrimary)
+}
+
+.midFont {
+    color: var(--AWakeSecondary)
+}
+
 .lightFont {
     color: var(--AWakeTertiary);
     text-shadow: 1px 1px 3px #000000;
@@ -44,13 +52,13 @@
 }
 
 .content-spill {
-    transform: translateY(3em)
+    transform: translateY(4em)
 }
 
 .socialsCard {
     position: absolute;
     width: 20em;
-    height: 15em;
+    height: 14em;
     box-shadow: 1px 1px 4px var(--AWakePrimary);
 }
 
