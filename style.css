@@ -39,6 +39,10 @@
     top: 200px;
 }
 
+.navLeft {
+    font-family: 'Courier New';
+}
+
 .headerBGImage {
     background: linear-gradient(0deg, #000000 0%, #05213be7 35%, #00d4ff00 100%), url("https://64.media.tumblr.com/aa1d0554d95fd86a045e543d1664b118/e272f3cf3e241f6e-88/s2048x3072/40f3d8464d694f6c580c366b31f853271bf92a60.png");
     background-size: cover;
