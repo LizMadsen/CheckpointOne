@@ -1,6 +1,6 @@
 :root {
     --AWakePrimary: #05213be7;
-    --AWakeSecondary: #9595cf;
+    --AWakeSecondary: #596c7ee7;
     --AWakeTertiary: #E6EEF4;
 }
 
@@ -18,16 +18,12 @@
     background-color: var(--AWakePrimary);
 }
 
-.mailingList {
-    box-shadow: 1px 1px 4px;
-    color: var(--AWakePrimary)
+.bgSecondary {
+    background-color: var(--AWakeSecondary);
 }
 
-.socialsCard {
-    position: absolute;
-    width: 18em;
-    height: 10em;
-    box-shadow: 1px 1px 4px var(--AWakePrimary);
+.bgTertiary {
+    background-color: var(--AWakeTertiary);
 }
 
 .headFont {
@@ -35,15 +31,31 @@
     top: 200px;
 }
 
-.d-flex {
-    display: flex;
-}
-
 .headerBGImage {
     background: linear-gradient(0deg, #000000 0%, #05213be7 35%, #00d4ff00 100%), url("https://64.media.tumblr.com/aa1d0554d95fd86a045e543d1664b118/e272f3cf3e241f6e-88/s2048x3072/40f3d8464d694f6c580c366b31f853271bf92a60.png");
     background-size: cover;
     background-position: center;
     height: 35em;
+}
+
+.mailingList {
+    box-shadow: 1px 1px 4px;
+    color: var(--AWakePrimary)
+}
+
+.content-spill {
+    transform: translateY(3em)
+}
+
+.socialsCard {
+    position: absolute;
+    width: 20em;
+    height: 15em;
+    box-shadow: 1px 1px 4px var(--AWakePrimary);
+}
+
+.d-flex {
+    display: flex;
 }
 
 input[type=text], select, textarea{
@@ -55,6 +67,11 @@ input[type=text], select, textarea{
   resize: vertical;
 }
 
-.content-spill {
-    transform: translateY(3em)
+.AWHeadshot {
+    size: 250px;
+}
+
+.AWakeBio {
+    position: relative;
+    top: 180px;
 }
