@@ -1,5 +1,5 @@
 :root {
-    --AWakePrimary: #454552;
+    --AWakePrimary: #05213be7;
     --AWakeSecondary: #9595cf;
     --AWakeTertiary: #E6EEF4;
 }
@@ -11,15 +11,23 @@
 
 .lightFont {
     color: var(--AWakeTertiary);
-    text-shadow: 1px 1px 3px var(--AWakePrimary);
+    text-shadow: 1px 1px 3px #000000;
 }
 
 .bgPrimary {
     background-color: var(--AWakePrimary);
 }
 
-.headCard {
+.mailingList {
+    box-shadow: 1px 1px 4px;
+    color: var(--AWakePrimary)
+}
+
+.socialsCard {
     position: absolute;
+    width: 18em;
+    height: 10em;
+    box-shadow: 1px 1px 4px var(--AWakePrimary);
 }
 
 .headFont {
@@ -32,10 +40,19 @@
 }
 
 .headerBGImage {
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(5, 33, 59, 0.904) 25%, rgba(0,212,255,0) 100%), url("https://majornelson.com/wp-content/uploads/sites/7/2021/09/Alan-Wake-Remastered.jpg");
+    background: linear-gradient(0deg, #000000 0%, #05213be7 35%, #00d4ff00 100%), url("https://64.media.tumblr.com/aa1d0554d95fd86a045e543d1664b118/e272f3cf3e241f6e-88/s2048x3072/40f3d8464d694f6c580c366b31f853271bf92a60.png");
     background-size: cover;
     background-position: center;
-    height: 40em;
+    height: 35em;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 .content-spill {
