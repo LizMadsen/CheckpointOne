@@ -5,7 +5,7 @@
     --AWakeQuarternary: #bbc9df;
 }
 
-.headerFooter {
+.header {
     background-color: var(--AWakePrimary);
     color: var(--AWakeTertiary)
 }
@@ -98,6 +98,10 @@ input[type=text], select, textarea{
     top: 180px;
 }
 
+.reviewsRow {
+    align-items: center;
+}
+
 .reviewCard {
     height: 15rem;
     width: 25rem;
@@ -106,8 +110,13 @@ input[type=text], select, textarea{
 .ACaseyBooks {
     max-width: 350px;
     height: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px var(--AWakePrimary);
 }
 
 .footer {
     height: 11em;
+    text-align: center;
+    background-color: var(--AWakeTertiary);
+    color: var(--AWakePrimary)
 }

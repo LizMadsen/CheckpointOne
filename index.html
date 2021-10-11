@@ -34,21 +34,26 @@
 </style> -->
 
 <body class="debug bgTertiary">
-    <header class="headerFooter container-fluid">
+    <header class="header container-fluid">
         <div>
             <nav class="navbar fixed-top navbar-expand-lg bgPrimary navLeft">
                 <h3 class="mx-3">Alan Wake</h3>
                 <div class="collapse navbar-collapse px-5" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link lightFont" href="#"> Coming Soon<span
-                                    class="sr-only">(current)</span></a>
+                            <a class="nav-link lightFont" href="#"> | Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link lightFont" href="#ComingSoon"> | Coming Soon</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link lightFont" href="#"> About the Author</a>
+                            <a class="nav-link lightFont" href="#AWakeBio"> | About the Author</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link lightFont" href="#"> Reviews</a>
+                            <a class="nav-link lightFont" href="#Reviews"> | Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lightFont" href="#ReadingOrder"> | Reading Order</a>
                         </li>
                     </ul>
                 </div>
@@ -114,8 +119,8 @@
             </div>
             <div class="col-3"></div>
         </div>
-        <div class="row bgPrimary justify-content-around">
-            <div class="col-5 lightFont my-3">
+        <div class="row bgPrimary justify-content-around" id="ComingSoon">
+            <div class="col-5 lightFont my-5">
                 <h2 class="quarterFont">Coming Soon: The final Alex Casey novel!</h2>
                 <p style="margin-left: 10%"><i>"It's true what they say about the fall and the sudden stop at the
                         end."</i></p>
@@ -141,7 +146,7 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center bgTertiary">
+        <div class="row justify-content-center bgTertiary" id="AWakeBio">
             <div class="col-3 my-5">
                 <img src="https://64.media.tumblr.com/5da28859abd4cf457fb6d63720b95fa5/e272f3cf3e241f6e-e2/s1280x1920/97c0e421c090a4b4cf41f30339731a0e7af63235.png"
                     class="img-fluid AWHeadshot" alt="Alan Wake headshot">
@@ -162,7 +167,7 @@
             </div>
             <div class="col-2"></div>
         </div>
-        <div class="row my-8 p-5 d-flex justify-content-around">
+        <div class="row reviewsRow my-8 p-5 d-flex justify-content-around" id="Reviews">
             <div class="col">
                 <div class="card reviewCard">
                     <div class="card-header">
@@ -211,7 +216,7 @@
                 </div>
             </div>
         </div>
-        <div class="row p-5 bgPrimary justify-content-center">
+        <div class="row p-5 bgPrimary justify-content-center" id="ReadingOrder">
             <div class="col-5">
                 <h3 class="quarterFont">Alex Casey reading order:</h3>
                 <p class="lightFont">Are you interested in getting started in reading Alan Wake's incredible debut
@@ -237,8 +242,8 @@
             <div class="col"></div>
         </div>
     </main>
-    <footer class="footer container-fluid headerFooter">
-        <P>Alan Wake (c) Remedy games, 2010-</P>
+    <footer class="footer container-fluid my-3">
+        <P>Alan Wake © Remedy games, 2010-</P>
     </footer>
 </body>
 
