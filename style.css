@@ -98,6 +98,10 @@ input[type=text], select, textarea{
     top: 180px;
 }
 
+.NSCard {
+    width: 30em;
+}
+
 .reviewsRow {
     align-items: center;
 }
@@ -119,4 +123,10 @@ input[type=text], select, textarea{
     text-align: center;
     background-color: var(--AWakeTertiary);
     color: var(--AWakePrimary)
+}
+
+@media (max-width: 768px) {
+    .RMmobile {
+        display: none;
+}
 }
