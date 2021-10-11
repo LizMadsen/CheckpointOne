@@ -33,17 +33,33 @@
     }
 </style> -->
 
-<body class="debug">
-    <header class="headerFooter container-fluid navLeft">
+<body class="debug bgTertiary">
+    <header class="headerFooter container-fluid">
         <div>
-            <h1>Alan Wake - Author</h1>
+            <nav class="navbar fixed-top navbar-expand-lg bgPrimary navLeft">
+                <h3 class="mx-3">Alan Wake</h3>
+                <div class="collapse navbar-collapse px-5" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link lightFont" href="#"> Coming Soon<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lightFont" href="#"> About the Author</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link lightFont" href="#"> Reviews</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
     <main class="container-fluid">
         <div class="row headerBGImage justify-content-around">
-            <div class="col-3">
-                <p class="midFont">Mailing List</p>
-                <div class="card mailingList px-3 py-2 my-5" style="width: 20rem; height: 25rem;">
+            <div class="col-3 my-5">
+                <!-- <p class="midFont">Mailing List</p> -->
+                <div class="card mailingList px-3 py-2 my-5" style="width: 20rem; height: 26rem;">
                     <h5>Join the mailing list</h5>
                     <form action="action_page.php">
                         <div class="row">
@@ -69,8 +85,12 @@
                             <div class="col-75">
                                 <input type="text" id="lname" name="lastname" placeholder="Email..">
                             </div>
-                        </div>
-                        <div class="row">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="" id="" value="">
+                                <label class="form-check-label checkBoxFont" for="">
+                                    By checking this box, you agree to the terms of service
+                                </label>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-25">
@@ -88,7 +108,7 @@
                 </div>
             </div>
             <div class="col-3 lightFont headFont">
-                <h2>Discover Alan Wake</h2>
+                <h2 class="quarterFont">Discover Alan Wake</h2>
                 <p>Author of the Alex Casey series, short stories in dozens of literary publications, screenplay writer
                     for Night Springs, and more!</p>
             </div>
@@ -96,11 +116,12 @@
         </div>
         <div class="row bgPrimary justify-content-around">
             <div class="col-5 lightFont my-3">
-                <h2>Coming Soon: The final Alex Casey novel!</h2>
-                <p><i>It's true what they say about the fall and the sudden stop at the end.</i></p>
+                <h2 class="quarterFont">Coming Soon: The final Alex Casey novel!</h2>
+                <p style="margin-left: 10%"><i>"It's true what they say about the fall and the sudden stop at the
+                        end."</i></p>
                 <p>After a hair-raising ending to the penultimate Alex Casey novel, The Sudden Stop, fans will find out
                     what happened to the titular hero and what that ending really spells for him.</p>
-                <p><small>Release date TBA</small></p>
+                <p><small>Release date will be announced at New York Comic-Con 2011</small></p>
             </div>
             <div class="col-2">
                 <div class="content-spill">
@@ -136,21 +157,87 @@
                     memorable episodes of Night Springs. However, Alan would find steady literary fame in the release of
                     his Alex Casey series, cementing his standing as one of suspense-thriller's most notable authors.
                 </p>
-                <P>Along with his wife, photographer Alice Wake, Alan resides in New York City, NY.</P>
+                <P>Alan is currently on vacation with his wife, but will resume the convention circuit when they return.
+                </P>
             </div>
             <div class="col-2"></div>
         </div>
-        <div class="row">
-            <div class="col"></div>
+        <div class="row my-8 p-5 d-flex justify-content-around">
+            <div class="col">
+                <div class="card reviewCard">
+                    <div class="card-header">
+                        Review
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>The Sudden Stop kept me up all night until I finished it. A breathless read for anyone
+                                who enjoys suspense-thrillers.</p>
+                            <footer class="blockquote-footer">Frank Breaker <cite title="Source Title">Previous Sheriff
+                                    of Bright Falls</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card NSCard">
+                    <div class="card-header">
+                        Night Springs
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <iframe width="425" height="225" src="https://www.youtube.com/embed/mX4Hm8LTW5Q"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <p>Watch one of Alan Wake's memorable Night Springs episodes. I helped him get this gig.</p>
+                            <footer class="blockquote-footer">Barry Wheeler <cite title="Source Title">Alan Wake's
+                                    Agent</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card reviewCard">
+                    <div class="card-header">
+                        Review
+                    </div>
+                    <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                            <p>I've read a few of his books. He's good. A little heavy on the metaphors, but good.</p>
+                            <footer class="blockquote-footer">Sheriff Sarah Breaker <cite title="Source Title">Bright
+                                    Falls Police</cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col"></div>
+        <div class="row p-5 bgPrimary justify-content-center">
+            <div class="col-5">
+                <h3 class="quarterFont">Alex Casey reading order:</h3>
+                <p class="lightFont">Are you interested in getting started in reading Alan Wake's incredible debut
+                    series? Here is the
+                    proper order to read the books. It's very important to go in order! Each subsequent book builds off
+                    the previous one, culminating in a fantastic journey along the way. </p>
+                <ol class="lightFont" type="1">
+                    <li>Alex Casey</li>
+                    <li>What I can't Forget</li>
+                    <li>Return to Sender</li>
+                    <li>The Things That I Want</li>
+                    <li>The Fall of Casey</li>
+                    <li>The Sudden Stop</li>
+                </ol>
+            </div>
+            <div class="col-3">
+                <img src="https://64.media.tumblr.com/9d8447254b25d1d348059411d2c5032a/9c436c33820a6bc8-be/s1280x1920/e4f72d610349abeed81d17c7239b162335c1e4cb.png"
+                    class="ACaseyBooks" alt="Alex Casey books lined on a shelf in improper order">
+            </div>
+            <div class="col-5"></div>
         </div>
         <div class="row">
             <div class="col"></div>
         </div>
     </main>
-    <footer class="container-fluid headerFooter">
+    <footer class="footer container-fluid headerFooter">
         <P>Alan Wake (c) Remedy games, 2010-</P>
     </footer>
 </body>

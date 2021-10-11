@@ -2,6 +2,7 @@
     --AWakePrimary: #05213be7;
     --AWakeSecondary: #596c7ee7;
     --AWakeTertiary: #E6EEF4;
+    --AWakeQuarternary: #bbc9df;
 }
 
 .headerFooter {
@@ -15,6 +16,10 @@
 
 .midFont {
     color: var(--AWakeSecondary)
+}
+
+.quarterFont {
+    color: var(--AWakeQuarternary)
 }
 
 .lightFont {
@@ -41,18 +46,23 @@
 
 .navLeft {
     font-family: 'Courier New';
+    color: var(--AWakeTertiary);
 }
 
 .headerBGImage {
     background: linear-gradient(0deg, #000000 0%, #05213be7 35%, #00d4ff00 100%), url("https://64.media.tumblr.com/aa1d0554d95fd86a045e543d1664b118/e272f3cf3e241f6e-88/s2048x3072/40f3d8464d694f6c580c366b31f853271bf92a60.png");
     background-size: cover;
     background-position: center;
-    height: 35em;
+    height: 38em;
 }
 
 .mailingList {
     box-shadow: 1px 1px 4px;
     color: var(--AWakePrimary)
+}
+
+.checkBoxFont {
+    font-size: 10px;
 }
 
 .content-spill {
@@ -61,7 +71,7 @@
 
 .socialsCard {
     position: absolute;
-    width: 20em;
+    width: 22em;
     height: 14em;
     box-shadow: 1px 1px 4px var(--AWakePrimary);
 }
@@ -86,4 +96,18 @@ input[type=text], select, textarea{
 .AWakeBio {
     position: relative;
     top: 180px;
+}
+
+.reviewCard {
+    height: 15rem;
+    width: 25rem;
+}
+
+.ACaseyBooks {
+    max-width: 350px;
+    height: auto;
+}
+
+.footer {
+    height: 11em;
 }
