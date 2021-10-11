@@ -98,21 +98,21 @@ input[type=text], select, textarea{
     top: 180px;
 }
 
-.NSCard {
-    width: 30em;
+.NSvideo {
+    text-align: center;
 }
 
 .reviewsRow {
     align-items: center;
 }
 
-.reviewCard {
+/* .reviewCard {
     height: 15rem;
     width: 25rem;
-}
+} */
 
 .ACaseyBooks {
-    max-width: 350px;
+    max-width: 17rem;
     height: auto;
     border-radius: 15px;
     box-shadow: 1px 1px 4px var(--AWakePrimary);
@@ -128,5 +128,8 @@ input[type=text], select, textarea{
 @media (max-width: 768px) {
     .RMmobile {
         display: none;
+}
+    .comingSoonRow { 
+        flex-direction: column-reverse;
 }
 }
